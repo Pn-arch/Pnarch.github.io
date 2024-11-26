@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;}
+.container .background{
+        background-image: url(img/PS_pnr.jpg);
+        height:120vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat:no-repeat;
+        opacity: 0.6;}
+.container .navbar{
+    width: 100%;
+    height: 200px;
+   background:rgba(13, 48, 2);  }
+.navbar .logo{
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 80px;} 
+.navbar .logo a{
+        text-decoration: none;
+        font-size: 30px;
+        font-family: oswald;
+        color: rgb(8, 167, 47);
+        transition: 1s;} 
+.navbar .logo a:hover{
+    background: rgb(155, 255, 180);
+    border-radius: 10px;
+    padding: 10px 20px;}
+.navbar ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 50px;
+            line-height: 80px; }
+.navbar ul li a{
+            color: rgb(151, 99, 199);
+            text-decoration: none;
+            font-size: 20px;
+            padding: 6px 13px;
+            font-family: oswald;
+            transition: 1s;}
+ .navbar ul{
+            float: right;
+            margin-right: 20px;}
+        .navbar ul li a.active,
+        .navbar ul li a:hover{
+            background: plum;
+            border-radius: 10px;}
+.container .center{
+            position:absolute;
+            top: 20%;
+            left: 35%;
+            transform: translate(-50% -50%);
+            font-family: oswald;
+            user-select: none;}
+.center h1{
+            color: darkolivegreen;
+            font-size: 50px;
+                width: 900px; 
+               font-weight: normal;} 
+.center h2{
+    color:rgb(50, 1, 65) ;
+    font-family: oswald;
+    top: 520px;
+    user-select: none;
+    position: absolute;
+    font-weight: normal;
+    font-size: 30px;}
+    .center h3{
+        color:rgb(50, 1, 65) ;
+        font-family: oswald;
+        top: 560px;
+        user-select: none;
+        position: absolute;
+        font-weight: lighter;
+        font-size: 30px;}
+        .center h4{
+            color:rgb(50, 1, 65) ;
+            font-family: oswald;
+            top: 600px;
+            user-select: none;
+            position: absolute;
+            font-weight: lighter;
+            font-size: 30px;}
+.center p{
+    position: absolute;
+    top: 640px;
+    font-family: oswald;
+    user-select: none;
+    color: rgb(50, 1, 65);
+    font-size: 30px;
+    font-weight: lighter;} 
+.center{
+    border: solid 5px rebeccapurple;
+    border-radius: 25px;
+    height: 720px;
+    width: 740px;
+    background: rgb(250, 241, 250);
+    padding: 20px 100px;
+    
+}  
+.center img{
+   width: 240px;
+   height: 420px;
+   position: relative;
+   border: solid 2px rebeccapurple;
+   border-radius: 25px;}

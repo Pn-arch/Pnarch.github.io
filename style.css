@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;}
+.container{
+    background-image: url(img/pnr.jpg);
+    height:150vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;  }
+.container .navbar{
+    width: 100%;
+    height: 200px;
+   background:rgba(13, 48, 2);  }
+.navbar .logo{
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 80px;}
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: oswald;
+    color: rgb(8, 167, 47);}
+.navbar .logo a.active,
+.navbar.logo a:hover{
+    background:rgb(155, 255, 180);
+    border-radius: 10px;
+    padding: 10px 20px;}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 50px;
+    line-height: 80px; }
+    .navbar ul li a{
+        color: rgb(151, 99, 199);
+        text-decoration: none;
+        font-size: 20px;
+        padding: 6px 13px;
+        font-family: oswald;
+        transition: 1s;}
+        .navbar ul li a:hover{
+            background: plum;
+            border-radius: 10px;}
+.navbar ul{
+    float: right;
+    margin-right: 20px;}
+.container .center{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50% -50%);
+    font-family: oswald;
+    user-select: none;}
+.center h1{
+    color: darkolivegreen;
+    font-size: 50px;
+    width: 900px; 
+    font-weight:lighter;}
+.center .buttons{
+    margin: 25px 80px;}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    color: rgb(163, 48, 163);
+    font-family: oswald;
+    border: solid 1px rebeccapurple;
+    cursor: pointer;
+    outline:none;
+    border-radius: 25px;
+    transition: 2s;
+    background: plum;}
+.buttons button:hover{
+    background: rgb(133, 56, 133);}
