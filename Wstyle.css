@@ -148,5 +148,18 @@ position: absolute;
     border-radius: 25px;
     top: 100px;}
 
-    
-
+    body.dark-mode {
+        background-color: #121212;
+        color: #ffffff;
+    }
+.mouse-trail {
+    position: fixed;
+    width: 15px; 
+    height: 15px;
+    background-color: rebeccapurple; 
+    border-radius: 50%; 
+    pointer-events: none; 
+    transition: transform 0.1s, opacity 0.3s; 
+    z-index: 1000; 
+  }
+  
