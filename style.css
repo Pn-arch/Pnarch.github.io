@@ -58,17 +58,3 @@
     font-weight:lighter;}
 .center .buttons{
     margin: 25px 80px;}
-.buttons button{
-    height: 50px;
-    width: 150px;
-    font-size: 18px;
-    color: rgb(163, 48, 163);
-    font-family: oswald;
-    border: solid 1px rebeccapurple;
-    cursor: pointer;
-    outline:none;
-    border-radius: 25px;
-    transition: 2s;
-    background: plum;}
-.buttons button:hover{
-    background: rgb(133, 56, 133);}
